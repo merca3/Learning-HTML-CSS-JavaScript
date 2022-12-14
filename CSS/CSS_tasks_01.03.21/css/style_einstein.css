@@ -1,0 +1,62 @@
+    * {
+        background-color: lightgrey;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h2,
+    h4,
+    h6 {
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 40px;
+        color: rgb(24, 151, 224);
+        font-weight: normal;
+        margin-bottom: 0px;
+    }
+    
+    h4 {
+        color: green;
+        font-style: italic;
+        font-size: 26px;
+    }
+    
+    img {
+        width: 12%;
+        height: 12%;
+    }
+    
+    h6 {
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    li {
+        font-size: 18px;
+    }
+    
+    ul {
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+    
+    q {
+        font-size: 22px;
+        margin: 0px 5px 0px 40px;
+    }
+    
+    .author {
+        margin: 20px 40px;
+    }
+    
+    .comment {
+        color: rgb(214, 18, 165);
+        font-size: 22px;
+    }
+    
+    a {
+        font-style: italic;
+        color: royalblue;
+        text-decoration-style: none;
+    }

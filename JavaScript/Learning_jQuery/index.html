@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning jQuery</title>
+
+    <style>
+        #todo-list li span {
+            cursor: pointer;
+        }
+        
+        #todo-list li button {
+            display: none;
+        }
+        
+        li.completed span {
+            text-decoration: line-through;
+        }
+        
+        #todo-list li.completed button {
+            display: inline;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <ul id="todo-list">
+        <li>
+            <span>Buy milk</span>
+            <button>x</button>
+        </li>
+        <li>
+            <span>Learn jQuery</span>
+            <button>x</button>
+        </li>
+        <li>
+            <span>Be awesome!</span>
+            <button>x</button>
+        </li>
+    </ul>
+    <div>
+        <form class="new-todo-form">
+            <div>
+                <h3>New ToDo</h3>
+                <h6 id="text-holder"></h6>
+            </div>
+            <div>
+                <label for="new-todo-name">ToDo:</label>
+                <input type="text" id="new-todo-name">
+            </div>
+            <div>
+                <input type="submit" value="Add ToDo" id="">
+            </div>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-image {
+    color: rgb(49, 21, 2);
+    background-color: saddlebrown;
+    background-image: url("../images/beach.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    height: 100vh;
+}
+
+.on-image {
+    text-align: center;
+    padding: 230px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    Found this on W3SCHOOLS, will probably
+    more explanation on this, as padding
+    won't work on smaller screens */
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+button {
+    background: none;
+    padding: 10px 20px;
+    border: rgb(49, 21, 2) 1px solid;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+a {
+    color: rgb(49, 21, 2);
+    text-decoration-line: none;
+}
+
+button:hover {
+    background-color: wheat;
+    opacity: 50%;
+}
+
+.background-brown {
+    background-color: saddlebrown;
+    color: wheat;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.background-white {
+    background-color: white;
+    color: saddlebrown;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.three-boxes {
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+}
+
+.box {
+    padding: 10px;
+    flex-basis: 33%;
+    color: saddlebrown;
+}
+
+.box-brown {
+    background-color: saddlebrown;
+    color: wheat;
+}

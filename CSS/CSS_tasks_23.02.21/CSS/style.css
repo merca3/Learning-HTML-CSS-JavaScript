@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(245, 238, 238);
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+h1,
+h2 {
+    color: grey;
+}
+
+.big {
+    border: grey 1px solid;
+    border-bottom: none;
+    line-height: 30px;
+}
+
+.list {
+    border-top: grey 1px solid;
+    border-bottom: grey 1px solid;
+    background-color: rgb(223, 217, 217);
+    cursor: pointer;
+}
+
+.list-one {
+    background-color: white;
+    cursor: pointer;
+}
+
+.list-one:hover {
+    background-color: rgb(245, 238, 238);
+}
+
+.yellow {
+    border: yellow 1px solid;
+    background-color: yellow;
+    margin-top: 10px;
+}
+
+h2 {
+    padding: 30px 0px 5px 20px;
+}
+
+.submit-button {
+    background-color: green;
+    padding: 5px 70px;
+    border-radius: 5px;
+    border: rgb(228, 223, 223) 1px solid;
+    color: white;
+    margin: 30px 0px 10px 0px;
+    font-size: 10px;
+}
+
+.yellow-2 {
+    padding: 10px 0px 10px 20px;
+    border: yellow 1px solid;
+    background-color: yellow;
+}
+
+a {
+    float: right;
+    background-color: red;
+    /* padding: 1px 5px; instead of last 4 rows */
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(250, 157, 172);
+}

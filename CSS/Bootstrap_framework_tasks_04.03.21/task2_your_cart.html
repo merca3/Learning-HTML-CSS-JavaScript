@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="col-4 m-3">
+        <div class="d-flex justify-content-between align-items-start">
+            <h4 class="text-secondary">Your cart</h4>
+            <span class="badge rounded-pill bg-secondary fs-6">3</span>
+        </div>
+        <ul class="list-group mt-2">
+            <li class="list-group-item list-group-item-action">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="mb-1">Product name</h5>
+                        <p class="mb-1">Brief description</p>
+                    </div>
+                    <small>$12</small>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="mb-1">Second product</h5>
+                        <p class="mb-1">Brief description</p>
+                    </div>
+                    <small class="text-muted">$8</small>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="mb-1">Third item</h5>
+                        <p class="mb-1">Brief description</p>
+                    </div>
+                    <small class="text-muted">$5</small>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="mb-1 text-success">Promo code</h5>
+                        <p class="mb-1 text-success">EXAMPLECODE</p>
+                    </div>
+                    <small class="text-muted">-$5</small>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action">
+                <div class="d-flex justify-content-between">
+                    <h5 class="fw-normal">Total (USD)</h5>
+                    <h5 class="mb-0 fw-bold">$20</h5>
+                </div>
+            </li>
+        </ul>
+        <form class="card p-2 mt-2">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Promo code" aria-describedby="button-addon2">
+                <button class="btn btn-secondary" type="button" id="button-addon2">Redeem</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

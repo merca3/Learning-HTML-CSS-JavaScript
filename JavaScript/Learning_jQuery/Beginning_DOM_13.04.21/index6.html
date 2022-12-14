@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table id="sample-table" border="1">
+        <tbody id="table-body">
+            <tr>
+                <td>Row1 Cell1</td>
+                <td>Row1 Cell2</td>
+                <td>Row1 Cell3</td>
+            </tr>
+            <tr>
+                <td>Row2 Cell1</td>
+                <td>Row2 Cell2</td>
+                <td>Row2 Cell3</td>
+            </tr>
+            <tr>
+                <td>Row3 Cell1</td>
+                <td>Row3 Cell2</td>
+                <td>Row3 Cell3</td>
+            </tr>
+        </tbody>
+    </table>
+    <form id="form-submit">
+        <div>
+            <label for="new-cell-text">Add new cell text:</label>
+            <input type="text" id="new-cell-text">
+        </div>
+        <div>
+            <span>Choose row:</span>
+            <select id="choose-row">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div>
+            <span>Choose column:</span>
+            <select id="choose-col">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <button type="submit">Change text</button>
+    </form>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main6.js"></script>
+</body>
+
+</html>
